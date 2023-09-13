@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/24edf3ad3a.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="templates/css/style.css">
+    <title>Youtube Downloader</title>
+</head>
+<body>
+    <header>
+            <div id = "nav-bar">
+                <!-- Logo should be changed -->
+                <h1 class = "logo">
+                    <span class = "text-primary"><i class ="fas fa-home"></i>UD</span>
+                </h1>
+                <nav>
+                    <ul>
+                        <li>
+                            <a href="#">Insta</a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fa-brands fa-youtube fa-1x" style="color: #e10e0e;"></i>YouTube</a>
+                        </li>
+                        <li>
+                            <a href="#">Tik-Tok</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+    </header>
+
+    <section id = "main">
+        <div class = "link">
+            <div>
+                <form method = "POST" action ="/submit">
+                    <label for = "URL">Enter URL</label>
+                    <input type = "link" placeholder = "Paste your link here" name = "URL" id = "box">
+                    <input type = "submit" class = "btn" value = "Download">
+                </form>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
